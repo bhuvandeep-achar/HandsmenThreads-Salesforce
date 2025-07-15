@@ -1,31 +1,31 @@
 HandsMen Threads – Salesforce CRM Project
 Welcome to the official Salesforce implementation for HandsMen Threads: Elevating the Art of Sophistication in Men's Fashion.
 
-This project delivers a tailored CRM system built on Salesforce to manage everything from customer orders and product inventory to loyalty programs and automated email communication.
+This project delivers a tailored CRM system built on Salesforce to manage customer orders, product inventory, loyalty programs, and automated email communication.
 
-🧵 Project Highlights
+Project Highlights
 This Salesforce solution helps HandsMen Threads streamline:
 
-🧑‍💼 Customer relationships
+Customer relationship management
 
-📦 Product ordering & inventory
+Product ordering and inventory
 
-🎁 Loyalty reward programs
+Loyalty reward programs
 
-📧 Automated email alerts & flows
+Automated email alerts and flows
 
-🔐 User roles, permissions & security
+User roles, permissions, and security
 
-🧩 What’s Included
-🔹 Custom Objects
-Object	Description
-HandsMen_Customer__c	Manages customer info & loyalty
-HandsMen_Order__c	Tracks order status & quantity
+What’s Included
+Custom Objects
+Object Name	Description
+HandsMen_Customer__c	Manages customer information and loyalty
+HandsMen_Order__c	Tracks order status and quantity
 HandsMen_Product__c	Stores product catalog
-Inventory__c	Manages stock & product availability
+Inventory__c	Manages stock and product availability
 Marketing_Campaign__c	Organizes marketing events
 
-🔹 Automation Components
+Automation Components
 Flows
 
 Order Confirmation Email
@@ -38,20 +38,20 @@ Apex Code
 
 OrderTriggerHandler: validates quantity rules
 
-OrderTrigger: handles before-insert/update events
+OrderTrigger: handles before-insert and before-update events
 
 Batch Apex
 
 LoyaltyPointsBatch: updates weekly customer points
 
-InventorySyncBatch: syncs stock daily
+InventorySyncBatch: synchronizes stock daily
 
-🔹 Security & Access
-Custom Profiles & Roles
+Security & Access
+Custom Profiles and Roles
 
 Fine-tuned Permission Sets
 
-🔹 Lightning App
+Lightning App
 Custom Salesforce Lightning App: HandsMen Threads, featuring:
 
 HandsMen Customers
@@ -64,18 +64,18 @@ Inventory
 
 Marketing Campaigns
 
-Reports & Dashboards
+Reports and Dashboards
 
-🔹 Email Templates
+Email Templates
 Formatted Classic Email Templates for:
 
-✅ Order Confirmation
+Order Confirmation
 
-⚠️ Low Stock Alert
+Low Stock Alert
 
-🏆 Loyalty Program Congratulations
+Loyalty Program Congratulations
 
-🚀 Project Setup (Using Salesforce CLI)
+Project Setup (Using Salesforce CLI)
 Log in to your org:
 
 bash
@@ -94,11 +94,11 @@ bash
 Copy
 Edit
 sf force:user:permset:assign -n Permission_Platform_1
-Test flows, triggers, and batch jobs from UI or Developer Console
+Test flows, triggers, and batch jobs from the UI or Developer Console.
 
-👤 Author
+Author
 Bhuvandeep Achar
-🔗 GitHub: bhuvandeep-achar
+GitHub: bhuvandeep-achar
 
-💬 Need Help?
-Open an issue, start a discussion, or submit a pull request. Let’s elevate this project together! ✨
+Need Help?
+Open an issue, start a discussion, or submit a pull request. Let’s elevate this project together!
