@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Order_Confirmation_Email</letterhead>
+    <name>Loyalty Program Email</name>
+    <style>freeForm</style>
+    <subject>Welcome to Our Loyalty Program!</subject>
+    <textOnly>&lt;p&gt;Dear {!Contact.FirstName},&lt;/p&gt;
+
+&lt;p&gt;We’re thrilled to welcome you to our Loyalty Program!&lt;/p&gt;
+
+&lt;p&gt;As a member, you’ll earn points on every purchase and unlock exclusive rewards and discounts.&lt;/p&gt;
+
+&lt;p&gt;Learn more about your benefits here: &lt;a href=&quot;{!Loyalty_Program__c.Link__c}&quot;&gt;Loyalty Program Details&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Thank you for being a valued customer.&lt;/p&gt;
+
+&lt;p&gt;Best Regards,&lt;/p&gt;
+
+&lt;p&gt;Sales Team&lt;/p&gt;</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
