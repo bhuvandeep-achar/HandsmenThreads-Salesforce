@@ -96,48 +96,6 @@ Edit
 sf force:user:permset:assign -n Permission_Platform_1
 Test flows, triggers, and batch jobs from UI or Developer Console
 
-🗂 Folder Structure
-pgsql
-Copy
-Edit
-sfdx-project.json
-force-app/
-├── main/
-│   └── default/
-│       ├── objects/
-│       ├── flows/
-│       ├── classes/
-│       ├── triggers/
-│       ├── layouts/
-│       └── email/
-.gitignore
-README.md
-package.xml
-📦 Metadata Retrieval
-To retrieve your full project metadata, use this package.xml:
-
-xml
-Copy
-Edit
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-  <types><members>*</members><name>ApexClass</name></types>
-  <types><members>*</members><name>ApexTrigger</name></types>
-  <types><members>*</members><name>Flow</name></types>
-  <types><members>*</members><name>CustomObject</name></types>
-  <types><members>*</members><name>EmailTemplate</name></types>
-  <types><members>*</members><name>PermissionSet</name></types>
-  <types><members>*</members><name>Profile</name></types>
-  <types><members>*</members><name>Layout</name></types>
-  <types><members>*</members><name>LightningComponentBundle</name></types>
-  <version>59.0</version>
-</Package>
-Use this with:
-
-bash
-Copy
-Edit
-sf project retrieve start -x package.xml
 👤 Author
 Bhuvandeep Achar
 🔗 GitHub: bhuvandeep-achar
